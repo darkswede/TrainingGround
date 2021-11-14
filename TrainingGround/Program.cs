@@ -1,4 +1,4 @@
-﻿using System;
+﻿using TrainingGround.Models;
 
 namespace TrainingGround
 {
@@ -6,7 +6,21 @@ namespace TrainingGround
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //Race race = new Race();
+            //SportCar sportCar = new SportCar();
+            //Truck truck = new Truck();
+
+            //////race.Begin();
+            //////race.UpCasting(sportCar);
+            //////race.UpCasting(truck);
+            //////race.DownCasting(sportCar);
+            //////race.DownCasting(truck);
+
+            //var overrideTest = new HideOverride();
+            //overrideTest.Test();
+
+            var writeTest = new Delegates();
+            writeTest.TestMethod();
         }
     }
 }
