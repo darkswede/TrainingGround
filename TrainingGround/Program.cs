@@ -19,8 +19,11 @@ namespace TrainingGround
             //var overrideTest = new HideOverride();
             //overrideTest.Test();
 
-            var writeTest = new Delegates();
-            writeTest.TestMethod();
+            //var writeTest = new Delegates();
+            //writeTest.TestMethod();
+
+            var lambdaTest = new Lambda();
+            lambdaTest.TestingLambda();
         }
     }
 }
