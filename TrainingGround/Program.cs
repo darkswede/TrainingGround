@@ -22,8 +22,11 @@ namespace TrainingGround
             //var writeTest = new Delegates();
             //writeTest.TestMethod();
 
-            var lambdaTest = new Lambda();
-            lambdaTest.TestingLambda();
+            //var lambdaTest = new Lambda();
+            //lambdaTest.TestingLambda();
+
+            var eventsTest = new EventsPlaying();
+            eventsTest.Test();
         }
     }
 }
