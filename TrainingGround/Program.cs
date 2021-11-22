@@ -1,4 +1,5 @@
 ﻿using TrainingGround.Models;
+using TrainingGround.Utils;
 
 namespace TrainingGround
 {
@@ -25,8 +26,19 @@ namespace TrainingGround
             //var lambdaTest = new Lambda();
             //lambdaTest.TestingLambda();
 
-            var eventsTest = new EventsPlaying();
-            eventsTest.Test();
+            //var eventsTest = new EventsPlaying();
+            //eventsTest.Test();
+
+            //Extensions.TestMethod();
+
+            //var enumerations = new Enumerations();
+            //enumerations.EnumerationsTest();
+
+            //var linqTesting = new Linqs();
+            //linqTesting.LinqTesting();
+
+            var ut = new Utylization();
+            ut.MainMethod();
         }
     }
 }
