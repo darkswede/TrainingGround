@@ -42,6 +42,9 @@ namespace TrainingGround
 
             //var reflection = new Reflection();
             //reflection.Run();
+
+            var dynamics = new Dynamics();
+            dynamics.Run();
         }
     }
 }
