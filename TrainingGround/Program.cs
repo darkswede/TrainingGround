@@ -43,8 +43,11 @@ namespace TrainingGround
             //var reflection = new Reflection();
             //reflection.Run();
 
-            var dynamics = new Dynamics();
-            dynamics.Run();
+            //var dynamics = new Dynamics();
+            //dynamics.Run();
+
+            var asynchronus = new Asynchronus();
+            asynchronus.Run().Wait();
         }
     }
 }
