@@ -37,8 +37,11 @@ namespace TrainingGround
             //var linqTesting = new Linqs();
             //linqTesting.LinqTesting();
 
-            var ut = new Utylization();
-            ut.MainMethod();
+            //var ut = new Utylization();
+            //ut.MainMethod();
+
+            //var reflection = new Reflection();
+            //reflection.Run();
         }
     }
 }
