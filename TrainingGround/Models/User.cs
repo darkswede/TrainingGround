@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using TrainingGround.Models;
 
 namespace TrainingGround
 {
@@ -14,7 +16,10 @@ namespace TrainingGround
         private Person _person = new Person();
 
         private readonly ISet<Order> _orders = new HashSet<Order>();
+        [Required]
+        [EmailAddress]
         public string Email { get; private set; }
+        [UserPasswordAttribiute]
         public string Password { get; private set; }
         public string FirstName { get; private set; }
         public string LastName { get; private set; }
